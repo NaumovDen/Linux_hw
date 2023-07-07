@@ -1,0 +1,14 @@
+package lesson;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x = 345;
+        int five = x%10;
+        int four = x/10%10;
+        int three = x/100;
+        System.out.println("Number 345 > "+three+ ", "+four+ ", "+five+ ". ");
+
+    }
+}
+
