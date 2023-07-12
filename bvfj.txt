@@ -1,0 +1,32 @@
+package lesson;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int first = 5;
+        int second = 6;
+
+        printSum(first, second);
+        printMinus(first, second);
+        printMultiply(first, second);
+        printDivide(first, second);
+    }
+
+    public static void printSum(int firstNumber, int secondNumber) {
+        int result = firstNumber + secondNumber;
+        System.out.println("Сумма = " + result);
+    }
+
+    public static void printMinus(int firstNumber, int secondNumber) {
+        int result = firstNumber - secondNumber;
+        System.out.println("Вычетание = " + result);
+    }
+    public static void printMultiply(int firstNumber, int secondNumber) {
+        int result = firstNumber * secondNumber;
+        System.out.println("Умножение = " + result);
+    }
+    public static void printDivide(int firstNumber, int secondNumber) {
+        int result = firstNumber / secondNumber;
+        System.out.println("Деление = " + result);
+    }
+}
