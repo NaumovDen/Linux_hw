@@ -1,0 +1,20 @@
+   0 history
+   1 mkdir -p /home/dir2/dir3 && touch /home/dir2/dir3/file1.txt
+   2 cd /home/dir2/dir3/
+   3 ls
+   4 date >> file1.txt 
+   5 df -h
+   6 df -h / >> file1.txt 
+   7 cat history | tail 5
+   8 cat histoty | tail 5
+   9 cat history | tail -n 5
+  10 history | tail -n 5
+  11 history | tail -n 5 >> file1.txt 
+  12 cat /proc/cpuinfo 
+  13 cat /proc/cpuinfo | grep 'vendor' >> file1.txt 
+  14 vi /home/dir2/dir3/file1.txt 
+  15 cat ps -e
+  16 ps -e | wc -1 >> file1.txt 
+  17 history
+  18 export_file history > history.txt
+  19 history > history.txt
