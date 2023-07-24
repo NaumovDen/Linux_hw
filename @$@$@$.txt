@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        int temperature1 = 155;
+        int temperature2 = 60;
+
+        boolean DeviceIsWorking = checkDevice(temperature1, temperature2);
+        System.out.println("Device is working properly: " + DeviceIsWorking);
+    }
+
+    public static boolean checkDevice(int temperature1, int temperature2) {
+        return temperature1 > 100 && temperature2 < 100;
+    }
+}
