@@ -1,0 +1,22 @@
+   0 mkdir -l /home/papka/ $$ touch /home/papka/file.txt
+   1 mkdir -p /home/papla/ && touch /home/papka/file1.txt
+   2 mkdir -p /home/papka
+   3 cd /home
+   4 ls
+   5 touch /home/papka/file1.txt
+   6 cd /home/papka
+   7 ls
+   8 chmod +x file1.txt 
+   9 nano file1.txt 
+  10 cat file1.txt 
+  11 ./file1.txt 
+  12 nano file1.txt 
+  13 ./file1.txt 
+  14 nano file1.txt 
+  15 ./file1.txt 
+  16 nano file1.txt 
+  17 ./file1.txt 
+  18 nano file1.txt 
+  19 ./file1.txt 
+  20 cd /
+  21 history > history.txt
