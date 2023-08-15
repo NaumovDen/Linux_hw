@@ -1,0 +1,17 @@
+   0 nano sleeper.sh
+   1 nano sleeper.sh 
+   2 bash sleeper.sh 
+   3 cat /proc/cpuinfo > cpu_info.txt
+   4 nano sleeper.sh 
+   5 cat /etc/os-release | grep -o 'NAME=[^"]*' > os_release.txt
+   6 cat /etc/os-release | grep -o 'NAME=[^"]*'| sed 's/"//g' > os_release2.txt
+   7 nano txts.sh
+   8 bash txts.sh 
+   9 chmod u+x txts.sh 
+  10 bash txts.sh 
+  11 ls -l
+  12 nano txts.sh 
+  13 bash txts.sh 
+  14 ls -l
+  15 history
+  16 history > history_5.txt
