@@ -1,0 +1,41 @@
+
+                 1
+
+const number = prompt("write a number")
+console.log(number*0.1)
+
+                 2
+let a = prompt("first number")
+let b = prompt("second one")
+
+if (a > b) {
+   console.log("first number is more than the second one")
+} else {
+ //   console.log("the second one is more the the fist one")
+}
+
+                     3
+let a = prompt("your number")
+
+if (a < 100) {
+   console.log("a < 100")
+} else if (a > 100) {
+   console.log("a > 100 ")
+} else {
+  console.log("a = 100")
+}
+
+
+
+               4
+let name = prompt("your name?")
+let age = prompt("your age?")
+
+let overage = "Hello, " + name
+let underage = "Hi, " + name
+
+if (age > 18) {
+    console.log(overage)
+} else {
+    console.log(underage)
+}
